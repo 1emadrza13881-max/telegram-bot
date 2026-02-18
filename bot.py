@@ -5,7 +5,7 @@ import sqlite3
 import threading
 from flask import Flask
 
-TOKEN = os.getenv("7712667824:AAGGrpHNTC8F-EN6D-86dx4TGx60nC8M7po")  # ← مهم: از env بگیره
+TOKEN = os.getenv("BOT_TOKEN")  # ← مهم: از env بگیره
 ADMIN_ID = 7725566652
 
 bot = telebot.TeleBot(TOKEN)
