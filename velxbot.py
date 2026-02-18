@@ -3,7 +3,7 @@ from telebot import types
 import sqlite3
 import time
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = os.getenv("TOKEN")
 OWNER_ID = 7725566652
 BOT_NAME = "VELXBot"
 
