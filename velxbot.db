@@ -1,5 +1,0 @@
-cursor.execute("""CREATE TABLE IF NOT EXISTS users (...""")
-cursor.execute("""CREATE TABLE IF NOT EXISTS channels (...""")
-cursor.execute("""CREATE TABLE IF NOT EXISTS videos (...""")
-cursor.execute("""CREATE TABLE IF NOT EXISTS vip_codes (...""")
-cursor.execute("""CREATE TABLE IF NOT EXISTS settings (...""")
