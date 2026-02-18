@@ -1,0 +1,10 @@
+conn = sqlite3.connect(DB_NAME, check_same_thread=False)
+cursor = conn.cursor()
+
+cursor.execute("""CREATE TABLE IF NOT EXISTS users (
+    user_id INTEGER PRIMARY KEY,
+    username TEXT,
+    vip INTEGER DEFAULT 0,
+    last_use TIMESTAMP,
+    daily_count INTEGER DEFAULT 0
+)""")
